@@ -3936,7 +3936,7 @@ Rebel - DIO-09553&lt;br&gt;
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-A-H"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.5k"/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
 <part name="D1" library="digital-ic" deviceset="ZENER-DIODE" device="SMB"/>
 <part name="D2" library="digital-ic" deviceset="ZENER-DIODE" device="SMB"/>
@@ -4007,7 +4007,7 @@ Rebel - DIO-09553&lt;br&gt;
 <busses>
 </busses>
 <nets>
-<net name="N$3" class="0">
+<net name="D+" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="D+"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -4017,9 +4017,10 @@ Rebel - DIO-09553&lt;br&gt;
 <wire x1="106.68" y1="-2.54" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
 <junction x="106.68" y="7.62"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<label x="114.3" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="D-" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="2.54" x2="114.3" y2="2.54" width="0.1524" layer="91"/>
@@ -4030,6 +4031,7 @@ Rebel - DIO-09553&lt;br&gt;
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="114.3" y1="-2.54" x2="114.3" y2="2.54" width="0.1524" layer="91"/>
 <junction x="114.3" y="2.54"/>
+<label x="119.38" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V5V" class="0">
@@ -4123,6 +4125,9 @@ Rebel - DIO-09553&lt;br&gt;
 <pinref part="U1" gate="U$1" pin="GND@3"/>
 <wire x1="20.32" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U$1" pin="AGND"/>
+<wire x1="20.32" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
@@ -4214,6 +4219,8 @@ Rebel - DIO-09553&lt;br&gt;
 <label x="15.24" y="66.04" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U$1" pin="AVCC"/>
+<wire x1="20.32" y1="68.58" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
