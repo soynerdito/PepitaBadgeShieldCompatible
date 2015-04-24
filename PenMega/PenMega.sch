@@ -3417,8 +3417,8 @@ Rebel - DIO-09553&lt;br&gt;
 <pinref part="U2" gate="G$1" pin="SHIELD@1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="109.22" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="68.58" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="SHIELD@3"/>
+<wire x1="101.6" y1="66.04" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="63.5" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 <junction x="101.6" y="63.5"/>
@@ -3426,6 +3426,13 @@ Rebel - DIO-09553&lt;br&gt;
 <wire x1="109.22" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
 <junction x="101.6" y="68.58"/>
+<wire x1="101.6" y1="66.04" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<junction x="101.6" y="66.04"/>
+<pinref part="U2" gate="G$1" pin="CD1"/>
+<wire x1="109.22" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="CD2"/>
+<wire x1="109.22" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<junction x="101.6" y="60.96"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
