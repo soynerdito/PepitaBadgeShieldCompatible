@@ -223,7 +223,7 @@
 <wire x1="37.625" y1="62" x2="39.5857875" y2="62" width="0" layer="20"/>
 <wire x1="39.5857875" y1="62" x2="41" y2="60.5857875" width="0" layer="20" curve="-90"/>
 <wire x1="41" y1="60.5857875" x2="43.2107875" y2="58.375" width="0" layer="20" curve="90"/>
-<text x="15.3" y="12.5" size="5.08" layer="21" rot="R90">Participant</text>
+<text x="15.175" y="12.975" size="4" layer="21" rot="R90">Participant</text>
 <rectangle x1="-11.5" y1="29.25" x2="46.875" y2="29.875" layer="21" rot="R90"/>
 <rectangle x1="-18.1875" y1="29.4375" x2="35.5625" y2="30.0625" layer="21" rot="R90"/>
 <rectangle x1="9.4375" y1="-1.1875" x2="16.5625" y2="7.8125" layer="21" rot="R90"/>
