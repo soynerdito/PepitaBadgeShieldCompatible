@@ -1,0 +1,44 @@
+{
+   "packages":[
+      {
+         "name":"BSidesPR",
+         "maintainer":"Soynerdito",
+         "websiteURL":"https://github.com/soynerdito/PepitaBadgeShieldCompatible",
+         "email":"soynerdito@gmail.com",
+         "help":{
+            "online":"https://github.com/soynerdito/PepitaBadgeShieldCompatible"
+         },
+         "platforms":[
+            {
+               "name":"BSides Puerto Rico 2015 Badge",
+               "architecture":"avr",
+               "version":"1.0.0",
+               "category":"Contributed",
+               "url":"https://github.com/soynerdito/PepitaBadgeShieldCompatible/Arduino/IDE_Board_Manager/bsidespr-1.0.0.tar.bz2",
+               "archiveFileName":"bsidespr-1.0.0.tar.bz2",
+               "checksum":"SHA-256:19924feea2bd7d862ab2c78df810fcc91984abf9b5da7fd005fd3d46c32d5200",
+               "size":"1324",
+               "help":{
+                  "online":"https://github.com/soynerdito/PepitaBadgeShieldCompatible"
+               },
+               "boards":[
+                  { "name":"BSides PR Badge 2015" },                  
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+         "tools":[]
+      }
+   ]
+}
