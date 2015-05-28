@@ -22,7 +22,7 @@
                   "online":"https://github.com/soynerdito/PepitaBadgeShieldCompatible"
                },
                "boards":[
-                  { "name":"BSides PR Badge 2015" },                  
+                  { "name":"BSides PR Badge 2015" }
                ],
                "toolsDependencies":[
                   {
