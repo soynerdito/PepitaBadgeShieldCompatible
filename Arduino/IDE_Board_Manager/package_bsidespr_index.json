@@ -14,7 +14,7 @@
                "architecture":"avr",
                "version":"1.0.0",
                "category":"BSides",
-               "url":"https://github.com/soynerdito/PepitaBadgeShieldCompatible/Arduino/IDE_Board_Manager/bsidespr-1.0.0.tar.bz2",
+               "url":"https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.0.tar.bz2",
                "archiveFileName":"bsidespr-1.0.0.tar.bz2",
                "checksum":"SHA-256:19924feea2bd7d862ab2c78df810fcc91984abf9b5da7fd005fd3d46c32d5200",
                "size":"1324",
