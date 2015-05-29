@@ -12,12 +12,12 @@
             {
                "name":"BSides Puerto Rico 2015 Badge",
                "architecture":"avr",
-               "version":"1.0.1",
+               "version":"1.0.2",
                "category":"BSides",
-               "url":"https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.1.tar.bz2",
-               "archiveFileName":"bsidespr-1.0.1.tar.bz2",
-               "checksum":"SHA-256:e3cb8df988951c9ad9970ef19e2809e2f121a0a3cefb47280906f19933829bd2",
-               "size":"1330",
+               "url":"https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.2.tar.bz2",
+               "archiveFileName":"bsidespr-1.0.2.tar.bz2",
+               "checksum":"SHA-256:791b1c8270dc38f512fa8abf92bf5bbc5765d39f1dd4932159ab128cc5f5a074",
+               "size":"430080",
                "help":{
                   "online":"https://github.com/soynerdito/PepitaBadgeShieldCompatible"
                },

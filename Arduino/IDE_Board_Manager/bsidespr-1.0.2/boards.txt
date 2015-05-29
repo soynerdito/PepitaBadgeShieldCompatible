@@ -1,0 +1,22 @@
+# BSides PR 2015 Badge
+#
+# For more information see:
+# - https://github.com/soynerdito/PepitaBadgeShieldCompatible
+#
+
+##############################################################
+# BSidesPR 2015 badge Configuration
+bsidespr2015.name= BSides PR Badge 2015
+bsidespr2015.upload.protocol=usbasp
+bsidespr2015.upload.maximum_size=30720
+bsidespr2015.upload.speed=19200
+bsidespr2015.upload.tool=arduino:avrdude
+bsidespr2015.bootloader.low_fuses=0xF7
+bsidespr2015.bootloader.high_fuses=0xDA
+bsidespr2015.bootloader.extended_fuses=0x03
+bsidespr2015.build.mcu=atmega328p
+bsidespr2015.build.f_cpu=16000000L
+bsidespr2015.build.board=AVR_BPR2015
+bsidespr2015.build.core=arduino:arduino
+bsidespr2015.build.variant=arduino:standard
+bsidespr2015.upload.disable_flushing=true
