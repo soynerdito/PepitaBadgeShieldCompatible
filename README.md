@@ -16,6 +16,10 @@ Tools->Boards->Boards Manager
 Step 3: Activate the board
 Tools->Boads
 	Select BSides Badge 2015 from the available boards
+	
+Step 4: Set the programmer
+Tools->Programmer
+	Select USBasp
 
 
 # Flashing firmware
