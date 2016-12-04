@@ -37,7 +37,57 @@
                   }
                ]
             }
-         ]
+         ],
+		 "tools": [
+        {
+          "version": "1.20.0-26-gb404fb9-2", 
+          "name": "xtensa-lx106-elf-gcc", 
+          "systems": [
+            {
+              "url": "https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.2.tar.bz2", 
+              "checksum": "SHA-256:5df3139b089ae091a42a1117990987ff841393b3d6a7d4ed6b6b4f7a0ca66bedc", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "bsidespr-1.0.2.tar.bz2", 
+              "size": "72370"
+            }, 
+            {
+              "url": "https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.2.tar.bz2", 
+              "checksum": "SHA-256:5df3139b089ae091a42a1117990987ff841393b3d6a7d4ed6b6b4f7a0ca66bedc", 
+              "host": "x86_64-apple-darwin", 
+              "archiveFileName": "bsidespr-1.0.2.tar.bz2", 
+              "size": "72370"
+            }, 
+            {
+              "url": "https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.2.tar.bz2", 
+              "checksum": "SHA-256:5df3139b089ae091a42a1117990987ff841393b3d6a7d4ed6b6b4f7a0ca66bedc", 
+              "host": "i386-apple-darwin", 
+              "archiveFileName": "bsidespr-1.0.2.tar.bz2", 
+              "size": "72370"
+            }, 
+            {
+              "url": "https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.2.tar.bz2", 
+              "checksum": "SHA-256:5df3139b089ae091a42a1117990987ff841393b3d6a7d4ed6b6b4f7a0ca66bedc",  
+              "host": "x86_64-pc-linux-gnu", 
+              "archiveFileName": "bsidespr-1.0.2.tar.bz2", 
+              "size": "72370"
+            }, 
+            {
+              "url": "https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.2.tar.bz2", 
+              "checksum": "SHA-256:5df3139b089ae091a42a1117990987ff841393b3d6a7d4ed6b6b4f7a0ca66bedc", 
+              "host": "i686-pc-linux-gnu", 
+              "archiveFileName": "bsidespr-1.0.2.tar.bz2", 
+              "size": "72370"
+            }, 
+            {
+              "url": "https://github.com/soynerdito/PepitaBadgeShieldCompatible/raw/master/Arduino/IDE_Board_Manager/bsidespr-1.0.2.tar.bz2", 
+              "checksum": "SHA-256:5df3139b089ae091a42a1117990987ff841393b3d6a7d4ed6b6b4f7a0ca66bedc", 
+              "host": "arm-linux-gnueabihf", 
+              "archiveFileName": "bsidespr-1.0.2.tar.bz2", 
+              "size": "72370"
+            }
+          ]
+        }
+		]
       }
    ]
 }
